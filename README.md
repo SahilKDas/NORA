@@ -45,20 +45,6 @@ pnpm start
 
 The production server runs at `http://localhost:8787` and serves both the API and the built frontend.
 
-Package a runnable thumbdrive copy with:
-
-```powershell
-pnpm deploy:thumbdrive
-```
-
-The script copies the app to the first removable drive it finds, creates a timestamped `NORA-City-OS-*` folder, and adds `RUN_NORA.bat`.
-
-For a full copy that also attempts to include `node_modules`, run:
-
-```powershell
-pnpm deploy:thumbdrive:full
-```
-
 ## Built with
 
 React, Vite, Express, SQL.js/SQLite storage, Three.js, Lucide icons, custom SVG data visualizations, and responsive CSS.
